@@ -1,2 +1,4 @@
-live link.
-https://github.com/osas2211/zuri-Responsive-Web-Design
+LIVE LINK.
+
+
+https://osas2211.github.io/zuri-Responsive-Web-Design/
