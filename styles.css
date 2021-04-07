@@ -345,3 +345,56 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+
+
+@media screen and (max-width:780px){
+    div.nav-bar{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .nav-bar .logo{
+        display: block;
+        margin-bottom: 20px;
+        font-size: 2rem;
+
+    }
+    ul.nav-links{
+        justify-content: space-evenly;
+    }
+    div.hero-section{
+        padding: 5rem 1rem;
+        
+    }
+
+    div.hero-background {
+        padding: 4rem;
+    }
+
+    div.background {
+        padding: 10px 30px;
+        height: 270px;
+    }
+    
+    div.background h4 {
+        padding: 1rem .7rem;
+    }
+    
+    div.background p {
+        padding: 0.7rem;
+    }
+
+    div.hero-background-pos {
+        -right: 70%;
+        left: 70%;
+    }
+
+    div.snapshot-box-content{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
