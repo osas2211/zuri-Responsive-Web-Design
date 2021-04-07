@@ -346,7 +346,12 @@ div.footer h6 {
     padding-top: 6rem;
 }
 
-
+@media screen and (max-width:1080px) {
+    div.background {
+        padding-right: 120px;
+        height: auto;
+    }
+}
 
 @media screen and (max-width:780px){
     div.nav-bar{
@@ -375,7 +380,8 @@ div.footer h6 {
 
     div.background {
         padding: 10px 30px;
-        height: 270px;
+        padding-right: 120px;
+        height: auto;
     }
     
     div.background h4 {
@@ -387,7 +393,7 @@ div.footer h6 {
     }
 
     div.hero-background-pos {
-        left: 67%;
+        left: 60%;
     }
 
     div.snapshot-box-content{
