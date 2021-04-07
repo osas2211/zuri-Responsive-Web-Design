@@ -393,13 +393,16 @@ div.footer h6 {
     }
 
     div.hero-background-pos {
-        left: 66%;
+        left: 64%;
     }
 
     div.snapshot-box-content{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    div.snapshot-team p{
+        padding: 1.2rem;
     }
 }
 
